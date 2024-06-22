@@ -1,0 +1,10 @@
+请直接点击main.py运行程序
+按照控制台提示输入数字和其他字符进行操作
+初始厨师、菜品和管理员的信息如下：
+INSERT INTO Chef (ChefID, Name, Specialty, Password) VALUES (1, 'Chef A', 'Chinese Cuisine', 'password1');
+INSERT INTO Chef (ChefID, Name, Specialty, Password) VALUES (2, 'Chef B', 'Italian Cuisine', 'password2');
+INSERT INTO Dish (DishID, Name, ChefID, Description) VALUES (1, 'Dish A', 1, 'This is a delicious Chinese dish.');
+INSERT INTO Dish (DishID, Name, ChefID, Description) VALUES (2, 'Dish B', 2, 'This is a delicious Italian dish.');
+INSERT INTO Admin (AdminID, Name, Password) VALUES (1, 'Admin A', 'adminpassword1');
+四川大学软件学院 孔令然 罗博才
+2023年6月1日
